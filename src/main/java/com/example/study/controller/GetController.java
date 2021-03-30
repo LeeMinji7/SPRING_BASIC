@@ -11,7 +11,7 @@ public class GetController {
     @RequestMapping(method = RequestMethod.GET, path = "/getMethod") // Localhost:8080/api/getMethod
     public String getRequest(){
 
-        return "Hi getMethod";
+        return "Hi getMethod hi";
     } // 사용자의 요청이 이 메소드로 들어옴
 
     // ## query-parameter 인자 받는 방법 1 : requestparam 지정 ##
