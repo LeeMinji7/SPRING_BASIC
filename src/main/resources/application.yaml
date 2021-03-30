@@ -1,0 +1,25 @@
+# 스프링부트 프로젝트의 추가된 라이브러리 설정 관리
+
+spring:
+    jpa:
+        show-sql: true
+        hibernate:
+            #  새로 추가한 옵션 Entity Class 기반으로 Table 생성
+            ddl-auto: update
+
+    datasource:
+        # 새로 추가된 옵션 schema 가 없는 경우 생성 / db source url : 데이터 베이스와 어떠한 주소로 연결할 것인지 설정
+        # local host: mysql port(3306) / db의 스키마(study)?옵션들
+        url: jdbc:mysql://localhost:3306/study?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&charaterEncoding=utf-8
+        # db response name : root계정 사용
+        username: root
+        # db response password : root 비번 사용
+        password: 1028
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+    logging:
+        level:
+            root: info
+            com.zaxxer.hikari.HikariConfig: debug
+            org.hibernate.SQL: debug
+            hibernate.type.descriptor.sql.BasicBinder: trace
