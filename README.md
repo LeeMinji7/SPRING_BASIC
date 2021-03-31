@@ -1,5 +1,5 @@
 # SPRING PROJECT
-FastCampus Java 웹 개발 마스터 올인원 패키지 Online
+FastCampus Java 웹 개발 마스터 올인원 패키지 Online 스프링 부트 프로젝트: 어드민 페이지 만들기
 - - -
 ## 목차
 - 01 개발 환경설정   
