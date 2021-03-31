@@ -1,8 +1,7 @@
-## SPRING PROJECT
-
-### FastCampus Java 과정 Renewal
+# SPRING PROJECT
+FastCampus Java 웹 개발 마스터 올인원 패키지 Online
 - - -
-#### 목차
+## 목차
 - 01 개발 환경설정   
 - 03 REST API   
 - 04 Lombok-JPA CRUD   
