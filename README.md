@@ -1,6 +1,6 @@
 ## SPRING PROJECT
 
-FastCampus Java 과정 Renewal
+- FastCampus Java 과정 Renewal
 
 01 개발 환경설정
 03 REST API
